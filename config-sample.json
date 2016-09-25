@@ -1,0 +1,22 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:32",
+        "port": 51826,
+        "pin": "031-45-155"
+    },
+
+    "description": "This is a MusicCast enabled device",
+
+    "accessories": [{
+        "accessory": "MusicCast",
+        "name": "Yamaha Sound bar",
+        "speaker_name": "Yamaha1600",
+        "play_volume": -48,
+        "setMainInputTo": "Airplay",
+        "manual_addresses": {
+            "Yamaha": "192.168.1.115"
+        }
+    }],
+    "platforms": []
+}

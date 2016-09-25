@@ -1,0 +1,29 @@
+{
+    "name": "homebridge-musiccast",
+    "version": "0.0.1",
+    "description": "MusicCast plugin for homebridge: https://github.com/nfarina/homebridge",
+    "license": "MIT",
+    "keywords": [
+        "homebridge-plugin", "musiccast", "yamaha"
+    ],
+    "engines": {
+        "node": ">=0.12.0",
+        "homebridge": ">=0.2.0"
+    },
+    "author": {
+        "name": "Rui Marinho"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rmarinho/homebridge-musiccast.git"
+    },
+    "dependencies": {
+        "request": "^2.65.0",
+        "mdns": "^2.2.4",
+        "inherits": "^2.0.1",
+        "debug": "^2.2.0",
+        "core-util-is": "^1.0.1",
+        "util": "^0.10.x",
+        "edge": "*"
+    }
+}
